@@ -37,3 +37,8 @@ VALUES
 
 SELECT * FROM Clientes; 
 SELECT * FROM Compras; 
+
+SELECT c.nomeCliente, cp.NomeLivro
+FROM Compras cp
+INNER JOIN Clientes c ON cp.ClienteID = c.ID;
+
