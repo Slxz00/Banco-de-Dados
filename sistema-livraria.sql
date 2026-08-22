@@ -18,3 +18,22 @@ VALUES ('Maria Silva', 'maria@email.com');
 
 INSERT INTO Compras (ClienteID, NomeLivro)
 VALUES (1, 'Dom Casmurro');
+
+SELECT * FROM Clientes; 
+-- Inserindo dados na tabela Clientes
+INSERT INTO Clientes (nomeCliente, emailCliente)
+VALUES 
+('Maria Silva', 'maria.silva@email.com'),
+('João Pereira', 'joao.pereira@email.com'),
+('Ana Costa', 'ana.costa@email.com');
+
+-- Inserindo dados na tabela Compras
+INSERT INTO Compras (ClienteID, NomeLivro)
+VALUES
+(1, 'Dom Casmurro'),
+(2, 'O Alquimista'),
+(3, 'Capitães da Areia'),
+(1, 'Memórias Póstumas de Brás Cubas');
+
+SELECT * FROM Clientes; 
+SELECT * FROM Compras; 
